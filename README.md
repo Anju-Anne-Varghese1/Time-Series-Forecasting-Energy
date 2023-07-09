@@ -10,7 +10,7 @@ Python code for this project is contained in a Pycharm file.
 ## Few screenshots of the app
 
 * Landing Page:
-<img align="left" width="100" height="100" src="[https://picsum.photos](https://github.com/Anju-Anne-Varghese1/Time-Series-Forecasting-Energy/assets/137760122/f5f68875-d33c-4995-bce3-b88f28c5a38d)/100/100">
+<img align="left" width="100" height="100" src="![1](https://github.com/Anju-Anne-Varghese1/Time-Series-Forecasting-Energy/assets/137760122/f5f68875-d33c-4995-bce3-b88f28c5a38d)/100/100">
   
   ![1](https://github.com/Anju-Anne-Varghese1/Time-Series-Forecasting-Energy/assets/137760122/f5f68875-d33c-4995-bce3-b88f28c5a38d)
 
