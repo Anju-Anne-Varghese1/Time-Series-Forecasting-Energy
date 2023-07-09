@@ -1,5 +1,5 @@
 # Time-Series-Forecasting-Energy
-Designed and implemented an application for forecasting monthly energy production in the future, enabling users to input a future month and year for which the energy production will be predicted.
+Designed and implemented an application for forecasting monthly energy production of the future, enabling users to input a future month and year for which the energy production will be predicted.
 
 ## Data
 The dataset was collected from the [website](https://fred.stlouisfed.org/series/IPUTIL).
