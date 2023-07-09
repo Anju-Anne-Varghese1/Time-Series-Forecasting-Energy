@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Energy Predictor System</title>
+  <!-- Latest compiled and minified CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+<style>
+    .text-black{
+        color:black
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<body style="background-color:#7393B3">
+    <nav class="navbar" style="background-color:#B2BEB5">
+        <a class="navbar-brand" style="font-size:18px">Energy Production Predictor</a>
+        <ul class="nav navbar-nav">
+            <li style="font-size:18px"><a href="/predict">Predict</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form action='/predict_energy' method="POST">
+        <div class="row">
+            <div class="col-md-3" style="background-color:#FFFFFF">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body" style="margin-top:20px">
+                        <h4 class="card-title">Month and Year</h4>
+                        <input type="month" class="btn btn-default" name="Pred_month" id="Pred_month" required="required" min="2023-06">
+                        <br><br>
+                        <input class="btn btn-secondary btn-lg" type='submit' value='Predict'>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <br><br>
+        </form>
+     </div>
+    {% if output %}
+        <div class="col-md-9" style="margin-top:10px">
+            <div class="card">
+                <div class="card-body">
+                    <h4 style="color:white;">Energy Production for {{ month_name }} month of the year {{ end_year }} is {{ output }}.</h4>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</body>
+</html>
