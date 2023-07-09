@@ -11,7 +11,7 @@ Python code for this project is contained in a Pycharm file.
 
 * Landing Page:
   
-  ![1](https://github.com/Anju-Anne-Varghese1/Time-Series-Forecasting-Energy/assets/137760122/e49b7c36-0a62-4fbd-b77b-e75e1999dac2)
+  ![1](https://github.com/Anju-Anne-Varghese1/Time-Series-Forecasting-Energy/assets/137760122/f5f68875-d33c-4995-bce3-b88f28c5a38d)
 
 * Predict:
   
